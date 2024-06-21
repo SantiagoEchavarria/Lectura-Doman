@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/imageButton34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="unaSilaba"
+                app:srcCompat="@drawable/btninicio"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnanimales"
+                android:onClick="activityMain"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnsilabas"
+                android:onClick="unaSilaba2"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="partesCasaActivity"
+                app:srcCompat="@drawable/btnpartescasa"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnletras"
+                android:onClick="cuatroSilabasActivity"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnpartescuerpo"
+                android:onClick="partesCuerpoActivity"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnnumeros"
+                android:onClick="numeros"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnadjetivos"
+                android:onClick="adjetivos"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnasustantivos"
+                android:onClick="sustantivos"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnanimales"
+                android:onClick="animales2"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnverbos"
+                android:onClick="verbos"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cuatroSilabas2Activity"
+                app:srcCompat="@drawable/btnletras"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sustantivos2"
+                app:srcCompat="@drawable/btnasustantivos"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="verbos2"
+                app:srcCompat="@drawable/btnverbos"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton30"
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="parteCasa2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/btnpartescasa" />
+
+            <ImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnletras"
+                android:onClick="cincoSilabasActivity"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/btnadjetivos"
+                android:onClick="adjetivos2"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="aleatorio"
+                app:srcCompat="@drawable/btnaleatorio"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/imageButton33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btnnotas"
+                android:onClick="notas"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

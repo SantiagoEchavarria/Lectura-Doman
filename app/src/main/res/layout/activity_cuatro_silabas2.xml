@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuatroSilabas2">
+
+    <ImageButton
+        android:id="@+id/btnnext17"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="90dp"
+        android:onClick="setEjercicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/ids12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="s4Respuesta"
+        android:text="Button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/btnnext17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ids11"
+        app:layout_constraintTop_toBottomOf="@+id/txtPalabra6" />
+
+    <Button
+        android:id="@+id/ids11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="174dp"
+        android:onClick="s3Respuesta"
+        android:text="Button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ids12"
+        app:layout_constraintStart_toEndOf="@+id/ids10"
+        app:layout_constraintTop_toBottomOf="@+id/txtPalabra6" />
+
+    <Button
+        android:id="@+id/ids9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="175dp"
+        android:onClick="s1Respuesta"
+        android:text="Button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ids2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ids10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="175dp"
+        android:onClick="s2Respuesta"
+        android:text="Button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ids11"
+        app:layout_constraintStart_toEndOf="@+id/ids9"
+        app:layout_constraintTop_toBottomOf="@+id/txtPalabra6" />
+
+    <TextView
+        android:id="@+id/txtPalabra6"
+        android:layout_width="286dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="353dp"
+        android:text="Sol"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/ids1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

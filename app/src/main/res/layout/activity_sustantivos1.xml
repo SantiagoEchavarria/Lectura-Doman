@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sustantivos1">
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="285dp"
+        android:layout_height="367dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="274dp"
+        android:contentDescription="@string/leon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <TextView
+        android:id="@+id/txtLeon9"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="35dp"
+        android:onClick="respuesta1"
+        android:text="Leon"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtLima9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="262dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="38dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoma9" />
+
+    <TextView
+        android:id="@+id/txtLima9"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:onClick="respuesta2"
+        android:text="Lima"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtLoma9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLeon9" />
+
+    <ImageButton
+        android:id="@+id/btnnext10"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="73dp"
+        android:onClick="setRespuestas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt10"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoma9"
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtLoma9"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="23dp"
+        android:onClick="respuesta3"
+        android:text="Loma"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLima9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
